@@ -1,6 +1,6 @@
 const Admin = require('../models/adminSchema');
 const jwt = require('jsonwebtoken'); // For session management (optional)
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 
 
 

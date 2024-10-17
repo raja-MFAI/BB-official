@@ -1,0 +1,61 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Node.js dependencies
+/node_modules
+
+# Environment variables
+.env
+
+# Optional npm cache directory
+.npm
+
+# Directory for package-lock.json (npm 5+) and yarn.lock
+package-lock.json
+yarn.lock
+
+# Compiled source
+/dist
+/build
+
+# Static files
+/static
+
+# Coverage directory used by tools like istanbul
+/coverage
+
+# Debug files
+*.log
+
+# MacOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+
+# VSCode settings
+.vscode/
+
+# IDEs and Editors
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Generated files from build processes
+*.out
+*.exe
+*.dll
+*.so
+*.dylib
+*.o
+*.a
+*.pyc
+*.pyo
+*.pyd
